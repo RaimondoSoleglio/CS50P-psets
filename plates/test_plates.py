@@ -1,4 +1,4 @@
-import pytest
+import pytest # type: ignore
 
 from plates import is_valid
 

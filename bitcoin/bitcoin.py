@@ -17,6 +17,6 @@ try:
     data = response.json()
     value = n * float(data["data"]["priceUsd"])
 except requests.RequestException as e:
-    print("An error occured: {e}")
+    print(f"An error occured: {e}")
 
 print(f"${value:,.4f}")

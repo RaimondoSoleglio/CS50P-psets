@@ -1,4 +1,4 @@
-import pytest
+import pytest # type: ignore
 
 from fuel import convert, gauge
 
